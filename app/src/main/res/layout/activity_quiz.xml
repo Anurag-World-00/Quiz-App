@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D17A1"
+    tools:context=".QuizActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="283dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/laptop" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="371dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="67dp"
+        android:layout_marginTop="24dp"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:text="Who is Anurag ?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/option1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/btn2"
+        android:text="King"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toTopOf="@+id/option2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/question"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="300dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_height="70dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/btn2"
+        android:text="King"
+        android:textColor="#FCFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/option3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option1"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/option3"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/btn2"
+        android:text="King"
+        android:textColor="#FCFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/option4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option2"
+        app:layout_constraintVertical_bias="0.5" />
+    <Button
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/option4"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="29dp"
+
+        android:background="@drawable/btn2"
+        android:text="King"
+        android:textColor="#FCFCFC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option3"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
